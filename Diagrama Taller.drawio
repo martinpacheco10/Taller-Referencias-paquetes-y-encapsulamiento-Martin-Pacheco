@@ -1,0 +1,37 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="vXPO47eZ9xeShMK6gOQE">
+    <mxGraphModel dx="860" dy="439" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8uEWZA052W09fealQYyL-51" edge="1" parent="1" source="8uEWZA052W09fealQYyL-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="8uEWZA052W09fealQYyL-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8uEWZA052W09fealQYyL-31" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Vuelo" vertex="1">
+          <mxGeometry height="240" width="210" x="200" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="8uEWZA052W09fealQYyL-32" parent="8uEWZA052W09fealQYyL-31" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- codigo: string" vertex="1">
+          <mxGeometry height="26" width="210" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8uEWZA052W09fealQYyL-33" parent="8uEWZA052W09fealQYyL-31" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- destino: string" vertex="1">
+          <mxGeometry height="26" width="210" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="8uEWZA052W09fealQYyL-34" parent="8uEWZA052W09fealQYyL-31" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- sillasDisponibles: Int&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;&amp;nbsp;Vuelo(codigo, destino, sillas)&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;pre dir=&quot;ltr&quot;&gt;&lt;code&gt; + getCodigo(): String            &lt;br&gt; + getDestino(): String           &lt;br&gt; + getSillasDisponibles(): int    &lt;br&gt; + setDestino(destino): void      &lt;br&gt; + reservarSilla(): boolean &lt;/code&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="162" width="210" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="8uEWZA052W09fealQYyL-47" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Pasajero" vertex="1">
+          <mxGeometry height="190" width="160" x="225" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="8uEWZA052W09fealQYyL-48" parent="8uEWZA052W09fealQYyL-47" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- nombre: string&lt;div&gt;- vuelo: vuelo&lt;/div&gt;" vertex="1">
+          <mxGeometry height="39" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8uEWZA052W09fealQYyL-49" parent="8uEWZA052W09fealQYyL-47" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ pasajero(nombre)" vertex="1">
+          <mxGeometry height="26" width="160" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="8uEWZA052W09fealQYyL-50" parent="8uEWZA052W09fealQYyL-47" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ getVuelo(): vuelo&lt;div&gt;+ reservar(vuelo): void&lt;/div&gt;&lt;div&gt;+ mostrarReserva(): void&lt;/div&gt;" vertex="1">
+          <mxGeometry height="99" width="160" y="91" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
